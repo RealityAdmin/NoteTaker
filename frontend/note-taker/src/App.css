@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+html, body, div#root, div.app {
+  height: 100%;
+}
+
+.note {
+  height: 300px;
+  width: 300px;
+  background-color: gold;
+  border: '2px solid black';
+  margin: 0px;
+}
+
+.note-header {
+  height: 30px;
+  background-color: darkgoldenrod;
+  margin: 0px;
+}
+
+.note-write {
+  background-color: transparent;
+  border: 0px;
+  height: 240px;
+  width: 260px;
+  margin-top: 10px;
+  font-family: roboto, 'Times New Roman';
+  font-size: large;
+}
+
+.whiteboard {
+  display: flex;
+  flex: 1 0 auto;
+  min-height: 500px;
+  padding: 0px;
+}
